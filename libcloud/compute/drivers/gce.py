@@ -1765,13 +1765,17 @@ class GCENodeDriver(NodeDriver):
         "debian-cloud": ["debian-8", "debian-9"],
         "opensuse-cloud": ["opensuse-leap"],
         "rhel-cloud": ["rhel-6", "rhel-7"],
-        "suse-cloud": ["sles-11", "sles-12"],
+        "suse-cloud": ["sles-11", "sles-12", "sles-15"],
         "suse-byos-cloud": [
             "sles-11-byos", "sles-12-byos",
             "sles-12-sp2-sap-byos", "sles-12-sp3-sap-byos",
+            "sles-15-sap-byos",
             "suse-manager-proxy-byos", "suse-manager-server-byos"
         ],
-        "suse-sap-cloud": ["sles-12-sp2-sap", "sles-12-sp3-sap"],
+        "suse-sap-cloud": [
+            "sles-12-sp2-sap", "sles-12-sp3-sap",
+            "sles-15-sap"
+        ],
         "ubuntu-os-cloud": [
             "ubuntu-1404-lts", "ubuntu-1604-lts", "ubuntu-1710"
         ],
